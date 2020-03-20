@@ -17,7 +17,7 @@ def greet_crew (crew)
   
   binding.pry
   
-  crew.each { |crew_member| "Hello #{crew_member}." }
+  crew.map { |crew_member| "Hello #{crew_member}." }
   
 end
 
